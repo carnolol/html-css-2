@@ -1,1 +1,71 @@
-/* Coding goes here */
+/* Codin`g goes here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.black-header{
+    height: 75px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+}
+.spacex-logo{
+margin-top: 20px;
+margin-left: 25px;
+float: left;
+}
+
+.ships{
+    display: flex;
+    flex: row;
+    color: white;
+    width: 30%;
+    font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+    text-size-adjust: 14px;
+    padding: 25px;
+    margin-left: 22%;
+    justify-content: space-evenly;
+}
+
+.gray-links{
+    display:flex;
+    flex:row;
+    color: gray;
+    width: 30%;
+    margin-left: 60%;
+    font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+    justify-content: space-evenly;
+    margin-top: -45px;
+}
+
+.main-section{
+    position: relative;
+    height: 800px;
+    width: 100vw;
+}
+
+.main-picture{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index:-1;
+}
+
+.seethrough-box{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    z-index: 1;
+
+}
+
+.crs-20-mission{
+position: relative;
+color: white;
+}
